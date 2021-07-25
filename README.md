@@ -4,7 +4,7 @@
 
 1.(nssm 2.24-101-g897c7ad)  and copy either the 32-bit or 64-bit executable to any folder on your computer.
 ```
-    nssm install
+nssm install
 ```
 2. add EX. see below
 
@@ -24,17 +24,18 @@
     > node-red
 
 3. Win + R RUN type 
+
 ```
-    services.msc 
+services.msc 
 ```
 
 On the Details tab, give the service a name and set it's startup type to 
 
->>Automatic (Delayed Start)<<
+> Automatic (Delayed Start)
 
 you now have a Node-RED service - under service manager, click the 
 
->>Start Service<< 
+> Start Service
 
 button to start your Node-RED service.+
 
