@@ -1,0 +1,9 @@
+25 Jul 22:01:43 - [info] Node-RED version: v1.2.9
+25 Jul 22:01:43 - [info] Node.js  version: v14.15.5
+25 Jul 22:01:43 - [info] Windows_NT 10.0.19042 x64 LE
+25 Jul 22:01:44 - [info] Loading palette nodes
+25 Jul 22:01:45 - [info] Settings file  : C:\Users\TOP_PC\.node-red\settings.js
+25 Jul 22:01:45 - [info] Context store  : 'default' [module=memory]
+25 Jul 22:01:45 - [info] User directory : C:\Windows\system32\config\systemprofile\.node-red
+25 Jul 22:01:45 - [warn] Projects disabled : editorTheme.projects.enabled=false
+25 Jul 22:01:45 - [info] Flows file     : C:\Windows\system32\config\systemprofile\.node-red\flows_DESKTOP-7LBRRBS.json
