@@ -10,27 +10,42 @@
 
     Path: 
     > C:\Users\Administrator\AppData\Roaming\npm\node-red.cmd
+
     Startup Dir: 
+
     > C:\Users\Administrator\.node-red\
+
     Arguments: 
+
     > --settings "C:\Users\Administrator\.node-red\settings.js"
+
     Name: 
+
     > node-red
 
 3. Win + R RUN type 
 ```
     services.msc 
 ```
-On the Details tab, give the service a name and set it's startup type to >>Automatic (Delayed Start)<<
+
+On the Details tab, give the service a name and set it's startup type to 
+
+>>Automatic (Delayed Start)<<
+
 you now have a Node-RED service - under service manager, click the 
+
 >>Start Service<< 
+
 button to start your Node-RED service.+
 
 4. For Edit >>nssm edit node-red
 
     Output :: 
+
     > C:\Users\Administrator\Documents\node-red
+
     Error :: 
+
     > C:\Users\Administrator\Documents\node-red
 
 If you navigate to the I/O tab you will see options for stdin, stdout and stderror streams. These are used mainly on *NIX based systems, but node.js provides some implementation of them and so does nssm. 
